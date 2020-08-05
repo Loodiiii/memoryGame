@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 10px;
+    background-color: #9CF6F6;
+}
+h3 {
+    font-size: 3rem;
+    color: #fa9920;
+    padding-bottom: 5%;
+}
+span {
+    color: #e66e65;
+    font-size: 3.5rem;
+    margin-left: 0%;
+}
+.grid {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    background-color: #9CF6F6;
+}
